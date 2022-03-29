@@ -1,0 +1,39 @@
+body{
+    background-color:rgba(8,59,76,255);
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.text{
+    color:black;
+    text-align: center;
+    padding-top: 35px;
+}
+.color1{
+    background-color: rgba(19,137,178,255);
+    width:120px;
+    height:120px;
+    line-height:120px;
+}
+
+.color2{
+    background-color: #ffd166;
+    width:120px;
+    height:120px;
+    line-height: 120px;
+}
+
+.color3{
+    background-color: rgba(11,214,161,255);
+    width:120px;
+    height:120px;
+    line-height: 120px;
+}
+.color4{
+    background-color: #f0466f;
+    width:120px;
+    height:120px;
+    line-height: 120px;
+}
+

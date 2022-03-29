@@ -13,27 +13,27 @@ for (let i = 1; i <= numero; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
         console.log((i) + " : FizzBuzz");
         box.innerHTML += `<h2>FizzBuzz</h2>`
-        box.setAttribute('class', 'square');
+        box.setAttribute('class', 'text color4');
         for (let c = 0; c < i.length; c++) {
         }
 
     } else if (i % 5 === 0) {
         console.log((i) + " : Buzz");
         box.innerHTML += `<h2>Buzz</h2>`
-        box.setAttribute('class', 'square');
+        box.setAttribute('class', 'text color2');
         for (let c = 0; c < i.length; c++) {
         }
 
     } else if (i % 3 === 0) {
         console.log((i) + " : Fizz");
         box.innerHTML += `<h2>Fizz</h2>`
-        box.setAttribute('class', 'square');
+        box.setAttribute('class', 'text color3');
         for (let c = 0; c < i.length; c++) {
         }
 
     } else {
         box.innerHTML += `<h2>${[i]}</h2>`
-        box.setAttribute('class', 'square');
+        box.setAttribute('class', 'text color1');
     }
 
     col.append(box);
